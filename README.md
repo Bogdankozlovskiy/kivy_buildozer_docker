@@ -17,6 +17,10 @@
 ```
 $ buildozer init
 ```
+- To update buildozer dependencies
+```
+$ buildozer android update
+```
 - To build the apk (run inside the container):
 ```
 $ buildozer android debug
