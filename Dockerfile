@@ -54,3 +54,6 @@ RUN apt-get install -y \
 	libssl-dev \
 	autoconf \
 	autotools-dev
+
+
+WORKDIR /home/
