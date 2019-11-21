@@ -13,7 +13,7 @@
   - `--rm` - remove container after run
   - `-v $PWD:/home ` - mount current directory as `/home` in container
   - `kivy_buildozer` - image name
-  - If don't have a `buildozer.spec` file already, run `init` inside the container:
+* If don't have a `buildozer.spec` file already, run `init` inside the container:
 ```
 $ buildozer init
 ```
