@@ -1,6 +1,5 @@
 FROM ubuntu:18.04
 
-
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
@@ -54,6 +53,5 @@ RUN apt-get install -y \
 	libssl-dev \
 	autoconf \
 	autotools-dev
-
 
 WORKDIR /home/
